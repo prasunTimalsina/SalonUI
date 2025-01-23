@@ -185,3 +185,132 @@ body {
   bottom: 1px;
   right: 55px;
 }
+
+.testimonials {
+  padding: 3em;
+}
+
+.testimonials-text-content {
+  width: 30%;
+}
+
+.test-topic {
+  margin-bottom: 0.5em;
+}
+
+.testimonials-heading {
+  font-size: 3em;
+  line-height: 1;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonials-description {
+  color: #ababab;
+  margin-top: 1em;
+}
+
+.review-btn {
+  font-size: 1em;
+  font-weight: bold;
+  background-color: var(--primary-color);
+  margin-top: 2em;
+}
+
+.user-testimonials {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.testimonial-card {
+  padding: 4em;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.profile-img-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.customer-img {
+  border-radius: 50%;
+}
+
+.user-testimonial {
+  color: #c2c2c2;
+}
+
+.user-name {
+  text-align: center;
+  font-weight: bold;
+}
+
+.ctc-section {
+  padding: 5em;
+  display: flex;
+  justify-content: space-between;
+
+  background-image: url(./assets/contactBackground.png);
+}
+
+.ctc-text-content {
+  width: 50%;
+}
+
+.ctc-heading {
+  color: white;
+  font-size: 3em;
+  line-height: 1;
+}
+
+.ctc-description {
+  color: #b8b8b8;
+  margin-top: 1em;
+  font-size: 1rem;
+  width: 40%;
+  margin-bottom: 1.5em;
+}
+
+.book-appointment-btn {
+  background-color: var(--primary-color);
+}
+
+.call-now-card {
+  text-decoration: none;
+  color: #b8b8b8;
+  height: 15em;
+  width: 15em;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20%;
+  margin-top: 3rem;
+  border-radius: 1em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.icon-wrapper {
+  height: 5rem;
+  width: 5rem;
+  background-color: #b8b8b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.call-icon {
+  fill: var(--primary-color);
+}
